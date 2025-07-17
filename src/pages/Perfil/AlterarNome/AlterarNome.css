@@ -1,0 +1,134 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.body-alterar-nome {
+    background-color: #25263A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+
+.header-superior-an {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.voltar-an {
+    background: none;
+    border: none;
+    color: white; 
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.voltar-an svg {
+  margin-right: 8px; 
+}
+
+.config-an {
+    color: #319d09;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.config-an svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+
+.titulo-container-an {
+    background-color: #319d09;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-an {
+    color: #25263A;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.container-an {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-top: 60px; 
+}
+
+.form-grupo {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.label-nome {
+    font-size: 16px;
+    color: white;
+    align-self: flex-start;
+}
+
+.input-nome {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #d9d9d9; 
+    font-size: 16px;
+    color: #333;
+}
+
+.input-nome::placeholder {
+    color: #888;
+}
+
+.botao-confirmar {
+    background-color: #319d09;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+    width: 320px; 
+    margin-top: 20px;
+}
+
+.botao-confirmar:hover {
+    background-color: #319d09;
+}
+
+
+
+.mensagem-erro {
+    color: #ff5252; 
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+    width: 100%;
+}

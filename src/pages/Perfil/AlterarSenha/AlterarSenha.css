@@ -1,0 +1,143 @@
+/* pages/AlterarSenha.css */
+
+
+.body-alterar-senha {
+    background-color: #25263A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header-superior-as {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.voltar-as {
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+
+.config-as {
+    color: #319d09;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.config-as svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+.titulo-container-as {
+    background-color: #319d09;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-as {
+    color: #1e1f36;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.container-as {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    gap: 25px;
+}
+
+.form-grupo-as {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label-senha {
+    font-size: 16px;
+    color: white;
+    align-self: flex-start;
+}
+
+
+.input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-senha {
+    width: 100%;
+    padding: 15px;
+    padding-right: 50px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #d9d9d9;
+    font-size: 16px;
+    color: #333;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 15px; 
+    cursor: pointer;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.botao-confirmar-as {
+    background-color: #319d09;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+    width: 320px;
+    margin-top: 10px; 
+}
+
+.botao-confirmar-as:hover {
+    background-color: #319d09;
+}
+
+
+
+.mensagem-erro {
+    color: #ff5252; 
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px; 
+    width: 100%;
+}

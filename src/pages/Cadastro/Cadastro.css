@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&display=swap');
+
+.cadastro-container {
+  background-color: #25263A;
+  color: #25263A;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.cadastro-header {
+  width: 100%;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0;
+}
+
+.title-bar {
+  background-color: #37B10A;
+  padding: 0.8rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.title-bar h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cadastro-main {
+  padding-top: 2rem;
+}
+
+.cadastro-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #C0C1D4;
+  font-size: 1rem;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+  color: #747070;
+}
+
+.input-group input:focus::placeholder {
+  color: transparent;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  padding-right: 40px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  color: #888;
+}
+
+.cadastro-button {
+  display: block;
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color:#37B10A;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2rem auto 0 auto;
+}
+

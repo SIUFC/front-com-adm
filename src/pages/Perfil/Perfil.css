@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    background-color: #25263A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.header-superior {
+    background-color: #25263A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+
+.titulo-container {
+    background-color: #319d09;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.voltar {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem; 
+  gap: 8px;
+}
+
+
+
+.titulo {
+    color: #1e1f36;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.config {
+    color: #319d09; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.config svg {
+    
+    width: 30px !important;
+    height: 30px !important;
+    fill: currentColor !important;
+    max-width: none !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+
+    
+    transform: none !important;
+}
+
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nome {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.email {
+    color: #319d09;
+    font-size: 18px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.botoes button {
+    background-color: #319d09;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+.botoes button:hover {
+    background-color: #319d09;
+}

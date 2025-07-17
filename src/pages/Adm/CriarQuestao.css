@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pagina-container {
+  background-color: #25263A;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 0;
+}
+
+.back-button svg {
+  font-size: 1.2rem;
+}
+
+.pagina-container h2 {
+  color: #ffffff;
+  text-align: center;
+  margin: 1.5rem 0;
+  font-weight: 800;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 1.2rem;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label, .alternativa-label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  font-size: 1rem;
+  color: #333;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+  color: #a0a0a0;
+}
+
+.cadastro-form hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #4a4c6a;
+  margin: 1rem 0;
+}
+
+.cadastro-form p {
+    width: 100%;
+    text-align: left;
+    font-weight: 800;
+}
+
+.input-group-alternativa {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.input-group-alternativa input[type="radio"] {
+  width: 1.3em;
+  height: 1.3em;
+  accent-color: #37B10A;
+  cursor: pointer;
+}
+
+.input-group-alternativa .alternativa-label {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.input-group-alternativa input[type="text"] {
+  flex-grow: 1;
+}
+
+.nivel-button, .submit-button {
+  display: block;
+  width: 60%;
+  max-width: 300px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #37B10A; /* Verde principal */
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+}
+
+.nivel-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #37B10A;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #ee3636;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
