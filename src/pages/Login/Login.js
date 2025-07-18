@@ -32,6 +32,7 @@ const Login = ({ onNavigateToCadastro, onNavigateToNivel, onNavigateToLoginAdm }
         {
           Email: email,
           Password: senha,
+          Role: 'User', 
         },
         {
           headers: {

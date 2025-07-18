@@ -37,11 +37,12 @@ const Cadastro = ({ onNavigateToLogin }) => {
 
     try {
       const userData = {
-        Name: name,
-        Email: email,
-        Password: password,
-      };
-
+      Name: name,
+      Email: email,
+      Password: password,
+      Role: 'User', // ou "Admin", se quiser
+    };
+        //http://localhost:5037/api/User
       const response = await axios.post('http://localhost:5037/api/User', userData);
 
       console.log('USUÁRIO CADASTRADO', response.data.message);
@@ -78,11 +79,11 @@ const Cadastro = ({ onNavigateToLogin }) => {
       <main className="cadastro-main">
         <form className="cadastro-form" onSubmit={handleCadastro}>
           <div className="input-group">
-            <label htmlFor="name">Nome</label>
+            <label htmlFor="Name">Nome</label>
             <input
-              type="text"
+              type="name"
               id="name"
-              placeholder="Nome completo"
+              placeholder="Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               disabled={loading}
